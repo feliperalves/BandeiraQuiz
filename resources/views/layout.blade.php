@@ -8,17 +8,20 @@
     @vite(['resources/js/app.js'])
 </head>
 <body>
-    <div class = "container">
-        <main role = "main" class = "py-4">
+    <div style = "background-color: lightgray">
+        <div class = "container">
+        <main role = "main">
             @hasSection ('content')
                 @yield('content')   
             @endif
         </main>
-    </div>
-    <div class = "container">
-        <div class = "card-footer">
-            <p class = "text-center py-4"> Todos os direitos reservados a &copy;Copyright</p>
         </div>
-    </div>    
+    </div>
+    <!--    <div class = "container">
+                <div class = "card-footer">
+                    <p class = "text-center text-bg-danger"> Todos os direitos reservados &copy;Copyright</p>
+                </div>
+            </div> 
+    -->   
 </body>
 </html>

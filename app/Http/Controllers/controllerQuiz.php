@@ -9,11 +9,11 @@ class controllerQuiz extends Controller
     private $perguntas = array();
 
     public function __construct(){
-        $this->pergunta['pergunta1'] = 'B';
-        $this->pergunta['pergunta2'] = 'C';
-        $this->pergunta['pergunta3'] = 'A';
-        $this->pergunta['pergunta4'] = 'B';
-        $this->pergunta['pergunta5'] = 'C';
+        $this->perguntas['pergunta1'] = 'B';
+        $this->perguntas['pergunta2'] = 'C';
+        $this->perguntas['pergunta3'] = 'A';
+        $this->perguntas['pergunta4'] = 'B';
+        $this->perguntas['pergunta5'] = 'C';
     }
     
     public function index (){
